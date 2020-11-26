@@ -148,7 +148,6 @@ public class Main {
 
         lQueue.print();
 
-
     }
 
     public static void estimateNanoTime(Runnable runnable, String description) {
