@@ -1,5 +1,4 @@
 package Lesson4;
-
 import java.util.LinkedList;
 
 public class LinkedQueueX<T> {

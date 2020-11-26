@@ -13,7 +13,7 @@ public class StackX<T> {
         stack[++top]=element;
     }
 
-    public T poll(){
+    public T pop(){
         return (top==-1)?null:stack[top--];
     }
 

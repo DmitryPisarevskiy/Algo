@@ -22,7 +22,7 @@ public class Main {
         estimateNanoTime(() -> stack.push(new Cat("Tom", 5)),
                 "Добавление объекта Cat в StackX");
 
-        estimateNanoTime(stack::poll,
+        estimateNanoTime(stack::pop,
                 "Удаление объекта Cat из StackX");
 
         estimateNanoTime(() -> System.out.println(stack.peek().toString()),
@@ -45,7 +45,7 @@ public class Main {
         estimateNanoTime(() -> queue.push(new Cat("Tom", 5)),
                 "Добавление объекта Cat в QueueX");
 
-        estimateNanoTime(() -> queue.poll(),
+        estimateNanoTime(queue::poll,
                 "Удаление объекта Cat из QueueX");
 
         estimateNanoTime(() -> System.out.println(queue.peek()),
