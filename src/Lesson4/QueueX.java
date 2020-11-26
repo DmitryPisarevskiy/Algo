@@ -25,6 +25,7 @@ public class QueueX<T> {
         }
     }
 
+
     public T poll() {
         if (front == -1) {
             return null;
